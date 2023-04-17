@@ -1,9 +1,0 @@
-Description: These are the two files you can use to find the hidden flag. Analyse the script and the other image to find the encrypted flag.
-
-Hints: 1. Do you know the basic ciphers?
-
-Tags: #Basic Ciphers
-
-Points: 200
-
-Flag: ApoorvCTF{4ven9e75_455emb1e_u1tr0n_ri5e5}
