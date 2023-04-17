@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Linux Command Executor</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+  </head>
+  <body>
+    <h1>Linux Command Executor</h1>
+    <form id="command-form">
+      <label for="command-input">Enter a Linux command:</label>
+      <input type="text" id="command-input" name="command-input">
+      <input type="submit" value="Execute">
+    </form>
+    <div id="output"></div>
+    <script src="{{ url_for('static', filename='script.js')}}"></script>
+  </body>
+</html>

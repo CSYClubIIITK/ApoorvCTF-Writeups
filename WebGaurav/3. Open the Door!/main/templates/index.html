@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <header>
+      <h1>Library</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="books">
+        <h2>Books</h2>
+        <ul>
+
+          {% for book in books %}
+          <li>
+            <a href="books/{{ book['id'] }}">
+              <img src="https://via.placeholder.com/150" alt="book {{ book['id'] }}">
+              <h3>{{ book['title'] }}</h3>
+              <p>{{ book['author'] }}</p>
+            </a>
+          </li>
+          {% endfor %}
+        
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Library. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

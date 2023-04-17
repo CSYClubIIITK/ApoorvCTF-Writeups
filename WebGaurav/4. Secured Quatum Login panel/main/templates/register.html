@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register User</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="login-box">
+		<h1>Secured Quantum Login panel - Registration</h1>
+		<form action="/register" method="POST">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+			<input type="submit" value="Register">
+		</form>
+
+		<a class="register" href="/">Login</a>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
