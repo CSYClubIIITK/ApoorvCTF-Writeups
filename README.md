@@ -1,6 +1,6 @@
 <h1 align="center">
     <a href="https://github.com/CSYClubIIITK/ClubVault">
-        <img src="Logo.png" valign="middle" height="58" alt="CSY logo" />
+        <img src="CSC_Logo_Dark_name.png" valign="middle" height="58" alt="CSY logo" />
     </a>
     <span valign="middle">
         Cyber Security Club
@@ -20,20 +20,20 @@ This is a repository for all the writeups of ApoorvCTF 2023.
 ### Winners:
 
 1st Place - 4600 Points<br>
-Team name: arseven
-Team Members:
+Team name: arseven<br>
+Team Members:<br>
 1. @ArSeven 
 2. @hari
 3. @vishnu
 
-2nd Place - 4600 Points
-Team name: broski
-Team Members:
+2nd Place - 4600 Points<br>
+Team name: broski<br>
+Team Members:<br>
 1. @Guesslemonger 
 
-3rd Place - 4500 Points
-Team name: bi0sblr
-Team Members:
+3rd Place - 4500 Points<br>
+Team name: bi0sblr<br>
+Team Members:<br>
 1. @ph03n1x 
 2. @Cy83rTr0n 
 3. @Cyberc0re 
@@ -41,9 +41,9 @@ Team Members:
 
 Also lets take a moment to appreciate the 4th Place team, which really gave a tough competition for top 3 Places
 
-4th Place - 4400 Points
-Team name: DDLJ
-Team Members:
+4th Place - 4400 Points<br>
+Team name: DDLJ<br>
+Team Members:<br>
 1. Faizal
 2. Raju
 3. ghozt
