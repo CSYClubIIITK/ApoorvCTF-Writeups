@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}" />
+</head>
+
+<body>
+    <header>
+        <h1>Library</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>{{ book['title'] }}</h2>
+            <p>{{ book['author'] }}</p>
+            <img src="https://via.placeholder.com/400x600" alt="{{ book['title'] }}" />
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                pretium scelerisque mi, eu tempus dolor dignissim sit amet. Aliquam
+                eget elit elit. Nam ac elit vel lorem euismod hendrerit. Fusce rutrum
+                diam ac leo pretium, at sagittis orci blandit. Aliquam varius mi ut
+                erat congue mollis. Sed id ornare nisl, vitae hendrerit purus. Ut
+                congue nibh augue, eu suscipit odio dignissim vel. Donec dignissim
+                bibendum dapibus. Praesent vel metus eu augue pharetra tristique. In
+                hac habitasse platea dictumst. Aenean non augue non sem feugiat
+                malesuada sit amet sit amet urna.
+            </p>
+            <p>
+                Suspendisse faucibus lectus vel sem ultrices luctus. Ut finibus est
+                ut lacus ornare, vel convallis sapien porttitor. Donec a neque in
+                augue maximus imperdiet. Fusce vulputate malesuada lacus, ut pretium
+                risus ultricies vitae. Morbi consectetur justo augue, vel malesuada
+                sapien egestas at. Nam quis imperdiet leo. Suspendisse potenti.
+                Integer gravida auctor massa quis auctor. Vivamus laoreet felis at
+                nibh ullamcorper, vel malesuada turpis ultricies. Praesent eu semper
+                urna. Duis vulputate enim a odio sagittis facilisis.
+            </p>
+            <p>
+                Sed varius felis eu nulla vestibulum faucibus. Maecenas vitae elit
+                eget dolor sagittis interdum vel vitae urna. Donec lacinia, erat eu
+                ultricies congue, augue velit bibendum lorem, sit amet pellentesque
+                odio sapien vitae massa. Nullam nec ante at justo sagittis
+                scelerisque eu non lectus. Sed in ultrices lectus. Curabitur sit amet
+                nulla urna. In vitae elit euismod, auctor mauris vitae, vehicula
+                diam. Etiam ullamcorper dui mi, eu maximus ex viverra a. Nullam
+                hendrerit, augue in posuere ultricies, metus urna pulvinar erat, ac
+                malesuada sapien libero vel nunc.
+            </p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2023 Library. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

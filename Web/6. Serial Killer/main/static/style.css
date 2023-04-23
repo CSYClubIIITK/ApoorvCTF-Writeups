@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+main {
+    margin: 2rem auto;
+    max-width: 960px;
+    padding: 0 1rem;
+}
+
+.items {
+    margin-bottom: 2rem;
+}
+
+.items h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.items ul {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    list-style: none;
+}
+
+.items li {
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+.items li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-0.25rem);
+}
+
+.items li img {
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+.items li h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.items li p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.875rem;
+}
+
+.add-to-cart-btn {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #333;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+    }
+
+    main {
+        margin-top: 1rem;
+    }
+
+    .items ul {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

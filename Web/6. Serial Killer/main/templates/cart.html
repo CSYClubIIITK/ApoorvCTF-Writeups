@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>The Everything Stop</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/view">Cart</a></li>
+                <li><a href="/clear">Clear-Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="items">
+            <h2>Cart</h2>
+            <ul>
+
+                {% for item in all_items %}
+                <li>
+                    <img src="https://via.placeholder.com/150" alt="{{ item['name'] }}">
+                    <h3>{{ item['name'] }}</h3>
+                    <p>{{ item['price'] }}</p>
+                </li>
+                {% endfor %}
+
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 The Everything Stop. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
