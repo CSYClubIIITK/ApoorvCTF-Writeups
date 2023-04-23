@@ -18,7 +18,7 @@ This is a repository for all the writeups of ApoorvCTF 2023.
 `apoorvctf{some_text_here}`
 
 ### Winners:
-Let's appreciate the top 3 teams of ApoorvCTF
+
 1st Place - 4600 Points
 Team name: arseven
 Team Members:
