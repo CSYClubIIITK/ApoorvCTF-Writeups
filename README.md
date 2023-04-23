@@ -1,50 +1,54 @@
+<h1 align="center">
+    <a href="https://github.com/CSYClubIIITK/ClubVault">
+        <img src="../Logo.png" valign="middle" height="58" alt="CSY logo" />
+    </a>
+    <span valign="middle">
+        Cyber Security Club
+    </span>
+</h1>
+
+<h3 align="center">Securing the digital world, One byte at a time</h3>
+
 # ApoorvCTF-23-Writeups
 
 This is a repository for all the writeups of ApoorvCTF 2023.
 
-## Writeup Format
+#### Flag Format
 
-Each writeup should follow the format below:
+`apoorvctf{some_text_here}`
 
-### Challenge Name
+### Winners:
+Let's appreciate the top 3 teams of ApoorvCTF
+1st Place - 4600 Points
+Team name: arseven
+Team Members:
+1. @ArSeven 
+2. @hari
+3. @vishnu
 
-#### Category: 
+2nd Place - 4600 Points
+Team name: broski
+Team Members:
+1. @Guesslemonger 
 
-#### Points: 
+3rd Place - 4500 Points
+Team name: bi0sblr
+Team Members:
+1. @ph03n1x 
+2. @Cy83rTr0n 
+3. @Cyberc0re 
+4. @Masterchief88 
 
-#### Description
+Also lets take a moment to appreciate the 4th Place team, which really gave a tough competition for top 3 Places
 
-[Description of the challenge goes here]
+4th Place - 4400 Points
+Team name: DDLJ
+Team Members:
+1. Faizal
+2. Raju
+3. ghozt
+4. ACK
 
-#### Solution
-
-[Detailed explanation of the solution goes here]
-
-### Example Writeup
-
-Here's an example writeup for a challenge:
-
-#### Challenge Name: Web App Secrets
-
-#### Category: Web
-
-#### Points: 50
-
-#### Description
-
-The web app at http://example.com/secrets is hiding some interesting secrets. Can you find them?
-
-#### Solution
-
-Upon visiting the web app, we are presented with a login page. After inspecting the page source, we notice that the login form is sending a POST request to http://example.com/login. We try submitting some random credentials, but we receive an error message saying "Invalid credentials".
-
-Next, we try to intercept the request using Burp Suite. After sending the intercepted request to the repeater, we notice that the request contains a cookie named "session". We try to manipulate the value of this cookie by changing it to some random string. After submitting the request again, we receive a response with the flag.
-
-#### Flag
-
-`apoorvctf{w3b_4pp5_4r3_f0r_t3st1ng_0nly}`
-
-## Conclusion
-
-That's it for the ApoorvCTF-23 writeups. We hope you found them helpful and informative! If you have any questions or feedback, feel free to reach out to us.
+### Stats
+![Solve count](https://user-images.githubusercontent.com/129326094/233840236-c84949bf-309c-424b-ba58-a0f65e042bad.png)
 
