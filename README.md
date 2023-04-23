@@ -1,6 +1,6 @@
 <h1 align="center">
     <a href="https://github.com/CSYClubIIITK/ClubVault">
-        <img src="../Logo.png" valign="middle" height="58" alt="CSY logo" />
+        <img src="Logo.png" valign="middle" height="58" alt="CSY logo" />
     </a>
     <span valign="middle">
         Cyber Security Club
