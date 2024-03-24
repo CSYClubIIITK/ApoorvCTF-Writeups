@@ -1,0 +1,383 @@
+/* Header CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+/* CSS Above This Line is for Google Font Import - Do Not Copy*/
+
+.brand-navigation {
+  background-color: #06070d;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 960px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 3em;
+  color: #dbdbe2;
+}
+
+.logo-nav {
+  max-width: 100px;
+}
+
+.button-dark {
+  height: 28x;
+  padding: 1px 20px;
+  border-radius: 4px;
+  background-color: #f30606;
+  border-style: none;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;	
+  font-size: 13px;	
+  line-height: 26px;
+}
+
+/* Upload Form CSS */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 40vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #fcfcfc;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 600px;
+  height: 260px;
+  background-color: #ffffff;
+  padding: 10px 30px 40px;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+
+.drop_box {
+  margin: 10px 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px dotted #a3a3a3;
+  border-radius: 5px;
+}
+
+.drop_box h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.drop_box p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #f30606;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #f30606;
+  padding: 10px 20px;
+  border: none;
+  outline: 1px solid #010101;
+}
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.invisible {
+  display: none;
+}
+
+/* Footer CSS */
+    
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+}
+
+/* Choose Challenge CSS */ 
+.choose_challenge {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.choose_challenge  .fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.choose_challenge  .fa-bolt:before{content:"\f0e7";}
+.choose_challenge  .fa-hourglass-half:before{content:"\f252";}
+.choose_challenge  .fa-trophy:before{content:"\f091";}
+.choose_challenge  .fas{font-family:"Font Awesome 5 Free";}
+.choose_challenge  .fas{font-weight:900;}
+.choose_challenge  *{font-family:Inconsolata,monospace;}
+.choose_challenge  *,::after,::before{box-sizing:border-box;}
+.choose_challenge  h1{margin-top:0;margin-bottom:.5rem;}
+.choose_challenge  p{margin-top:0;margin-bottom:1rem;}
+.choose_challenge  .row{display:-webkit-box;display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.choose_challenge .col{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+.choose_challenge  .col{flex-basis:0;-webkit-box-flex:1;flex-grow:1;max-width:100%;}
+.choose_challenge  .card{background-color:#06070d;;border-radius:5px;cursor:pointer;height:110px;overflow:hidden;padding:.5em 1em;width:250px;-webkit-transition:all .2s;transition:all .2s;margin:15px auto;}
+.choose_challenge  .card:hover{-webkit-transform:translateY(-5px);transform:translateY(-5px);box-shadow:0 7px 14px rgba(0,0,0,.35);}
+.choose_challenge  .card-title{padding-left:5px;font-size:24px; color:#f30606;}
+.choose_challenge  .card-data{width:100%;-webkit-box-pack:justify;justify-content:space-between;}
+.choose_challenge  .card-data,.card-sub{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;}
+.choose_challenge  .card-data .data,.card-data i,.card-sub .data,.card-sub i{margin:5px;}
+.choose_challenge  .card-data>div>i,.card-data>div>p{color:#9096b4;}
+.choose_challenge  .card-data>.solves>i,.card-data>.solves>p{color:#ffa600!important;}
+.choose_challenge  .card-danger{border-top:3px solid #f30606;}
+.choose_challenge  .card-secondary{border-top:3px solid #757aa1;}
+.choose_challenge  .row{display:grid;grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));}
+
+@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:auto;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-regular-400.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-regular-400.eot#iefix) format("embedded-opentype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-regular-400.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-regular-400.woff) format("woff"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-regular-400.ttf) format("truetype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-regular-400.svg#fontawesome) format("svg");}
+@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:auto;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-solid-900.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-solid-900.eot#iefix) format("embedded-opentype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-solid-900.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-solid-900.woff) format("woff"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-solid-900.ttf) format("truetype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-solid-900.svg#fontawesome) format("svg");}
+@font-face{font-family:'Inconsolata';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/inconsolata/v30/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyxq15Mjs.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Inconsolata';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/inconsolata/v30/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyx615Mjs.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Inconsolata';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/inconsolata/v30/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyya15.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Inconsolata';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/inconsolata/v30/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyxq15Mjs.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Inconsolata';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/inconsolata/v30/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyx615Mjs.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Inconsolata';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/inconsolata/v30/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyya15.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+
+/* Tip Tool CSS */
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+.tiptool {
+  padding-top: 100px;
+  text-align: center;
+}
+
+span {
+   color: #e91e63;
+   font-family: monospace;
+   white-space: nowrap;
+}
+
+span:after {
+   font-family: Arial, sans-serif;
+   text-align: left;
+   white-space: normal;
+}
+
+span:focus {
+   outline: none;
+}
+
+.wrap {
+   background: #ECF0F1;
+   color: #607D8B;
+   height: 100%;
+   overflow: auto;
+   padding: 1em 2.5em;
+   text-align: center;
+   width: 100%;
+}
+
+.tiptool .h1 {
+   color: #e91e63;
+   font-family: "Audiowide", cursive;
+   font-size: 2em;
+   font-size: 7vw;
+   font-weight: bold;
+   line-height: 1.2;
+   margin: 0.5em 0 2.5em;
+   text-shadow: 1px 1px 1px #fefefe;
+}
+
+@media (min-width: 1075px) {
+  .tiptool h1 {
+      font-size: 4.7em;
+   }
+}
+
+pre {
+   background: #fff;
+   display: inline-block;
+   font-size: .55em;
+   margin-top: 2em;
+   padding: 1em;
+}
+
+@media (min-width: 360px) {
+   pre {
+      font-size: .7em;
+   }
+}
+
+@media (min-width: 500px) {
+   pre {
+      font-size: 1em;
+   }
+}
+
+
+/*== start of code for tooltips ==*/
+.tool {
+    cursor: help;
+    position: relative;
+}
+
+
+/*== common styles for both parts of tool tip ==*/
+.tool::before,
+.tool::after {
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    z-index: -100;
+}
+
+.tool:hover::before,
+.tool:focus::before,
+.tool:hover::after,
+.tool:focus::after {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    z-index: 100; 
+}
+
+
+/*== pointer tip ==*/
+.tool::before {
+    border-style: solid;
+    border-width: 1em 0.75em 0 0.75em;
+    border-color: #3E474F transparent transparent transparent;
+    bottom: 100%;
+    content: "";
+    margin-left: -0.5em;
+    transition: all .65s cubic-bezier(.84,-0.18,.31,1.26), opacity .65s .5s;
+    transform:  scale(.6) translateY(-90%);
+} 
+
+.tool:hover::before,
+.tool:focus::before {
+    transition: all .65s cubic-bezier(.84,-0.18,.31,1.26) .2s;
+}
+
+
+/*== speech bubble ==*/
+.tool::after {
+    background: #3E474F;
+    border-radius: .25em;
+    bottom: 180%;
+    color: #EDEFF0;
+    content: attr(data-tip);
+    margin-left: -8.75em;
+    padding: 1em;
+    transition: all .65s cubic-bezier(.84,-0.18,.31,1.26) .2s;
+    transform:  scale(.6) translateY(50%);  
+    width: 17.5em;
+}
+
+.tool:hover::after,
+.tool:focus::after  {
+    transition: all .65s cubic-bezier(.84,-0.18,.31,1.26);
+}
+
+@media (max-width: 760px) {
+  .tool::after { 
+        font-size: .75em;
+        margin-left: -5em;
+        width: 10em; 
+  }
+}
