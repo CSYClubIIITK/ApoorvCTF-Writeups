@@ -77,9 +77,9 @@ if __name__ == "__main__":
     extract_zip(zip_file, wordlist)
 ```
 
-![](images/Pasted%20image%2020240324104506.png)
-using this password we can decrypt the zipped file and extract flag.txt
-![](images/Pasted%20image%2020240324104936.png)
+![](images/Pasted%20image%2020240324104506.png)\
+using this password we can decrypt the zipped file and extract flag.txt\
+![](images/Pasted%20image%2020240324104936.png)\
 Now deciphering this base64 string gives out the flag.
 
 ##### Final Flag: apoorvctf{m@Y_The_brute_f0rCe_be_wIth_Y0u}
