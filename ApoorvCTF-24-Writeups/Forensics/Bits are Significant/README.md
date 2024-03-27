@@ -6,11 +6,14 @@ Category: Forensics
 Description: Hidden inside the delicate variations of sound waves is confidential information that can only be accessed by those with the knowledge to decipher.
 
 Solution:
+
 ### Step 1:
+
 As the Name of question suggests, Challenge has to do something with Least Significant bits and Most Significant bits.
 We can check Meta data as-well for any other hints, But we already have enough to work with.
 
 ### Step 2:
+
 Trying to extract Least Significant Bits.
 
 ```python
@@ -33,9 +36,10 @@ if __name__ == "__main__":
 ```
 
 ### Step 3:
+
 Taking the output of this Program into a file.
-![[Pasted image 20240324082056.png]]
+![](images/Pasted%20image%2020240324082056.png)
 opening `output.txt` file
-![[Pasted image 20240324082139.png]]
+![](images/Pasted%20image%2020240324082139.png)
 
 ##### Final Flag: apoorvctf{H@rm0Ny_0f_LSB_N0te&}
