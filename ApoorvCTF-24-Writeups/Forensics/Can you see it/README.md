@@ -9,13 +9,18 @@ Note: Flag format apoorvctf{...}
 
 Solution:
 The main idea to find the flag is to open file using Python.
+
 ### Step 1:
-We are given `README.txt`. When I tried a simple `cat README.txt`, it gave me a blank space. 
-![[Pasted image 20240324073848.png]]
+
+We are given `README.txt`. When I tried a simple `cat README.txt`, it gave me a blank space.
+![](images/Pasted%20image%2020240324073848.png)
 but actually opening the file in Hex Editor gave me idea on how to approach.
-![[Pasted image 20240324073919.png]]
+![](images/Pasted%20image%2020240324073919.png)
+
 - here we saw blank space and dots could be morse or binary, we can try putting it in morse decoder but nothing useful comes out, now 2nd approach converting it into binary.
+
 ### Step 2:
+
 Now, we saw all, `.` and spaces, so I replaced them with `1` and `0`. I wrote `exploit.py` to get the result:
 
 ```python
@@ -32,11 +37,14 @@ print(result)
 ```
 
 ### Step 3:
+
 After running `exploit.py` we get a binary output.
-![[Pasted image 20240324074525.png]]
-![[Pasted image 20240324074617.png]]
+![](images/Pasted%20image%2020240324074525.png)
+![](images/Pasted%20image%2020240324074617.png)
 
 ### Step 4:
+
 We can take this binary and use any online convertor to convert binary to text.
-![[Pasted image 20240324075332.png]]
+![](images/Pasted%20image%2020240324075332.png)
+
 ##### Final Flag: apoorvctf{If_y0u_r3@d_thi5_you_pa553d}
