@@ -12,9 +12,9 @@ The main idea to find the flag is to open file using Python.
 
 ### Step 1:
 
-We are given `README.txt`. When I tried a simple `cat README.txt`, it gave me a blank space.
-![](images/Pasted%20image%2020240324073848.png)
-but actually opening the file in Hex Editor gave me idea on how to approach.
+We are given `README.txt`. When I tried a simple `cat README.txt`, it gave me a blank space.\
+![](images/Pasted%20image%2020240324073848.png)\
+but actually opening the file in Hex Editor gave me idea on how to approach.\
 ![](images/Pasted%20image%2020240324073919.png)
 
 - here we saw blank space and dots could be morse or binary, we can try putting it in morse decoder but nothing useful comes out, now 2nd approach converting it into binary.

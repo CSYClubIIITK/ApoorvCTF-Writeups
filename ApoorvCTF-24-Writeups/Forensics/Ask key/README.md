@@ -19,17 +19,17 @@ Extract the sizes of the icmp packets and covert those to text using ascii to te
 
 ### Step 3:
 
-![](images/Pasted%20image%2020240324085543.png)
+![](images/Pasted%20image%2020240324085543.png)\
 From the decoded string we can see repetition of similar characters, this could mean there are 2 flags and 1 of them is correct.
 
 ### Step 4:
 
 Now filter the icmp packet requests and response separately.
 
-- flag from request packet sizes
-  ![](images/Pasted%20image%2020240324090134.png)
-- flag from response packet sizes
-  ![](images/Pasted%20image%2020240324090302.png)
+- flag from request packet sizes\
+  ![](images/Pasted%20image%2020240324090134.png)\
+- flag from response packet sizes\
+  ![](images/Pasted%20image%2020240324090302.png)\
   In this case flag coming out of request packet size is the correct flag.
 
 ##### Final Flag: apoorvctf{SIz<\_M@tt<R}
