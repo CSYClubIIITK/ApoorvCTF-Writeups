@@ -8,7 +8,7 @@ Category: OSINT
 
 Description: Here's a 360 image from google maps. Find the location of the image.
 
-Answer Flag: ApoorvCTF
+Answer Flag: ApoorvCTF{460415N625903E}
 
 Hint 1 (Cost = 50) : Bald and Bankrupt
 
